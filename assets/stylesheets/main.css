@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#logo {
+	width: 120px;
+	height: 44px;
+	position: relative;
+	top: 20px;
+	margin-right: 18px;
+}
+#board {
+	margin-right: 23px;
+	height: 16px;
+	width: 16px;
+}
+.top {
+	background-color: #fafafa;
+	padding-left: 15px;
+	border-bottom: 1px solid #fafafa;
+}
+input[type="text"] {
+	width: 635px;
+	height: 37px;
+	background-image: url("../images/glass.png");
+	background-repeat: no-repeat;
+	background-position: right 30px bottom 10px;
+	background-size: 18px 18px;
+}
+input[type="submit"] {
+	width: 70px;
+	height: 32px;
+	background-color: #4285f4; 
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 0.75em;
+}
+.options {
+	float: right;
+	position: relative;
+	top: 30px;
+	padding-right: 50px;
+}
+.sections {
+	clear: both;
+	padding-left: 156px;
+	margin-top: 28px;
+}
+.sections li {
+	display: inline-block;
+	margin-right: 35px;
+	padding-bottom: 19px;
+	font-size: 13px;
+}
+#settings {
+	margin-left: 90px;
+}
+span {
+	color: blue;
+	border-bottom: 3px solid blue;
+	padding-bottom: 16px;
+}
+.sections li a {
+	text-decoration: none;
+	color: #777;
+	font-size: 13px;
+}
+.sections li a:hover {
+	color: black;
+}
+.main {
+	width: 590px;
+	margin-left: 166px;
+	background-color: white;
+}
+.main p {
+	margin-bottom: 30px;
+}
+.main ul {
+	display: inline-block;
+}
+.main ul li a {
+	text-decoration: none;
+}
+h1 a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+h3 {
+	color: #006621;
+}
+h1 > a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin-top: 19px;
+	margin-bottom: 29px;
+	color: #777;
+	font-size: 14px;
+}
+#related {
+	font-size: 18px;
+}
+.first {
+	margin-right: 10px;
+}
+.main .first li, .main .second li {
+	margin-bottom: 5px;
+}
+.main .first a, .main .second a {
+	color: #1a0dab;
+	font-size: 15px;
+}
+.main .first a:hover, .main .second a:hover, .main .searchpages a:hover {
+	text-decoration: underline;
+}
+#pages {
+	display: block;
+	margin-top: 35px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+.searchpages {
+	position: relative;
+	left: 185px;
+	bottom: 30px;
+}
+.searchpages li {
+	display: inline-block;
+	margin-right: 6px;
+}
+.searchpages a {
+	text-decoration: none;
+	color: #4285f4;
+}
+.searchpages .active {
+	color: black;
+}
+
+#next {
+	margin-left: 37px;
+}
+footer {
+	background-color: #f2f2f2;
+	font-size: 13px;
+}
+footer a {
+	text-decoration: none;
+	color: #777;
+}
+footer a:hover {
+	color: black;
+}
+footer ul {
+		margin-left: 167px;
+}
+footer li {
+	display: inline-block;
+	margin-top: 25px;
+}
+.bfooter li {
+	margin-right: 33px;
+	margin-bottom: 10px;
+}
+#location {
+	color: #aaa;
+}
